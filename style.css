@@ -1,0 +1,15 @@
+.head {
+	font-family: Georgia, Serif;
+	font-size: 28px;
+	font-weight: bold;
+	color: #591811;
+}
+
+body {
+	background-color: #f4d4c3;
+}
+
+#statement{
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+}
