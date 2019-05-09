@@ -2,17 +2,42 @@
 <html>
     <head>
         <title>My Webpage</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
-	<body>
-        <p class="head">shopping list:</p>
-        <ul id="top">
-        	<li>Milk</li>
-        	<a href="first.html">See milk discount...</a>
-        	<li>Chocolate</li>
-        	<a href="second.html">See top 3</a>
-        	<li>Candy</li>
-        	<a href="third.html">See delicious candy...</a>
-        </ul>
+	<body style="padding: 20px">
+        <h1>shopping list:</h1>
+
+        <div class="row">
+          <div class="col-sm-6 col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <img src="img/milk.jpg" class="card-img-top" alt="...">
+                <h5 class="card-title">Milk</h5>
+                <p class="card-text"> Buy 15 liters of milk. </p>
+                <a href="first.html" class="btn btn-primary">Go to see milk discount</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <img src="img/Chocolate.jpg" class="card-img-top" alt="...">
+                <h5 class="card-title">Chocolate</h5>
+                <p class="card-text"> Buy 500g dark chocolates, more than 85% of cocoa content. </p>
+                <a href="second.html" class="btn btn-primary">Go to see top-3 chocolate.</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <img src="img/butter.jpg" class="card-img-top" alt="...">
+                <h5 class="card-title">Butter</h5>
+                <p class="card-text">Buy 1kg butter, recommending imported.</p>
+                <a href="third.html" class="btn btn-primary">Go to see butter usage.</a>
+              </div>
+            </div>
+          </div>
+        </div>
     </body>
 </html>
