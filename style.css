@@ -5,6 +5,32 @@
 	color: #591811;
 }
 
+@media(min-width: 800) {
+	img {
+		width: 60%;
+	}
+}
+
+@media(max-width: 799) {
+	img {
+		width: 80%;
+	}
+}
+
+body table {
+		border: 2px solid black;
+		border-collapse: collapse;	
+		width: 80%;	
+}
+body th, td {
+	border:1px solid black;
+	padding: 5px;
+	text-align: center;
+}
+body th {
+	background-color: white;
+}
+
 body {
 	background-color: #f4d4c3;
 }
@@ -12,4 +38,7 @@ body {
 #statement{
 	font-family: Arial, sans-serif;
 	font-size: 20px;
+}
+.back::before{
+	content: "<< ";
 }

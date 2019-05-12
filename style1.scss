@@ -1,0 +1,58 @@
+$Cdegree : "\2103";
+$Fdegree : "\2109";
+$eFrance : "\00E9";
+%color{
+	background-color: lightyellow;
+	color:orange;
+}
+%myfont{
+	font-family: Georgia, Serif;
+    font-weight: bold;
+}
+@media (min-width: 800px) {
+    img {
+		width: 60%;
+	}
+}
+@media (max-width: 799px) {
+    img {
+		width: 80%;
+	}
+}
+
+body{
+	@extend %color;
+	font-family: italic arial,sans-serif;
+	padding: 10px;
+	font-size: 18px;
+}
+h1{
+	@extend %myfont;
+	font-size: 28px;
+}
+
+h2{
+	@extend %myfont;
+	font-size: 24px;
+}
+ul{
+	line-height:26px;
+}
+
+#imgli{
+	line-height:48px;
+	font-size: 20px;
+}
+
+.c::before{
+	content: $Cdegree;
+}
+.f::before{
+	content: $Fdegree;
+}
+.e::before{
+	content: $eFrance;
+}
+.back::before{
+	content: "<< ";
+}

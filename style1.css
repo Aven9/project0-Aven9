@@ -1,0 +1,61 @@
+@charset "UTF-8";
+body {
+  background-color: lightyellow;
+  color: orange;
+}
+
+h2, h1 {
+  font-family: Georgia, Serif;
+  font-weight: bold;
+}
+
+@media (min-width: 800px) {
+  img {
+    width: 60%;
+  }
+}
+@media (max-width: 799px) {
+  img {
+    width: 80%;
+  }
+}
+body {
+  font-family: italic arial, sans-serif;
+  padding: 10px;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+ul {
+  line-height: 26px;
+}
+
+#imgli {
+  line-height: 48px;
+  font-size: 20px;
+}
+
+.c::before {
+  content: "℃";
+}
+
+.f::before {
+  content: "℉";
+}
+
+.e::before {
+  content: "é";
+}
+
+.back::before {
+  content: "<< ";
+}
+
+/*# sourceMappingURL=style1.css.map */
